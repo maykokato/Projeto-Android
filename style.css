@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/* Fonte android */
+
+    @font-face {
+        font-family: 'idroid';
+        src: url('fontes/idroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+ /*Cores principais  */
+
+    :root{
+     --cor1: rgb(22, 89, 52);
+    }
+    
+    header{
+        background-image: linear-gradient(to bottom,rgb(55, 201, 120),rgb(25, 95, 55));
+        margin: auto;
+        padding: 1px;
+    }
+
+    header > h1{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 60px;
+        font-weight: normal;
+        color: rgb(246, 248, 246);
+        text-align: center;
+        padding: 20px;
+        margin: auto;
+    }
+
+    header > h2{
+        color: rgb(156, 203, 178);
+        text-align: center;
+        margin: auto;
+        width: 440px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    nav{
+        margin: 10px;
+        padding: 5px;
+    }
+
+    nav > a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;        
+        color: rgb(246, 248, 246);
+        margin: auto ;
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    nav > a:hover{
+        background-color: rgb(68, 236, 141);
+        color:rgb(1, 61, 1);
+        padding: 10px;
+        margin: ;
+        border-radius: 2px;
+    }
+
+   .android{
+        font-family: 'idroid';
+        src: url('fontes/idroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        color:var(--cor1)
+   }
+
+    .sub{
+        font-family: 'idroid';
+        src: url('fontes/idroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+        color:rgb(22, 89, 52);
+        background-image: linear-gradient(to right, rgb(195, 234, 212), white);
+   }
+
+   p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        text-indent: 30px;
+   }
+   
+    body {
+    background-color: rgb(132, 225, 173);
+    margin: 0;
+    padding: 0;
+}
+
+    main {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+   #video{
+         display: block;
+          margin: auto;
+          width: 100%;
+        background-color: red;
+   }
+
+   aside{
+        background-color: bisque;
+        padding: 0px 10px;
+        margin: 20px;
+        border-radius: 10px 10px 0px 0px;
+   }
+
+   aside > h2{
+        background-color: rgb(47, 168, 102);
+        padding: 10px;
+        border-radius: 10px 10px 0px 0px;
+        color: white;
+        margin: -10px -10px 0px -10px;
+   }
+
+   aside > ul{
+        columns: 2;
+    }
+
+    footer{
+        background-color: rgb(5, 106, 50);
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+   }
+
+   footer a{
+        font-weight: bold;
+        color: white;
+   }
+
+   footer a:hover{
+        color: rgb(10, 156, 76)
+   }
+
+   img{
+     display: block;
+     margin: auto;
+}
+ 
